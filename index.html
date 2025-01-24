@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./src/setting.css">
+    <link rel="stylesheet" href="./fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <!--Navbar S-->
+    <div id="head" class="lg:w-full w-0"></div>
+    <nav class="w-full flex justify-between items-center xl:py-6 xl:px-[85px] py-[12px] px-[8px] bg-white sticky top-0 z-10">
+        <div class="w-[50%] flex gap-3 ">
+            <a id="basket" href="#" class="flex justify-center items-center"></a>
+            <a id="enter" href="#" class="flex br px-4 py-2 gap-2"></a>
+            <a class="xl:hidden flex justify-center items-center serch" href="#"><img class="w-[24px] leftOverImgs" src="" alt=""></a>
+        </div>
+        <div class="w-[50%] flex gap-4 justify-end">
+            <div id="search" class="w-[70%] xl:flex hidden border-[1px] border-gray-300 rounded-md justify-end items-center gap-2 px-2"></div>
+            <a id="logo" href="#" class="flex"></a>
+            <a class="flex xl:hidden justify-center items-center sekhat" href="#"><img class="w-[24px] leftOverImgs" src="" alt=""></a>
+        </div>
+    </nav>
+    <!--Navbar E-->
+    <!--Responsive Search S-->
+    <section class="w-full h-[100vh] bg-white hidden flex-col z-20 fixed top-0 searchBar">
+        <div class="w-full flex items-center justify-between p-[16px]">
+            <button class="flex flex-grow-0 flex-shrink-0 text-[18px] closeBtn resSearchBar"></button>
+            <span class="text-[16px] flex-1 text-center resSearchBar"></span>
+        </div>
+        <div class="py-[16px] px-[8px] w-full flex flex-col gap-3">
+            <div class="w-full flex gap-2 brdr rounded-md justify-end items-center py-[10px] px-[8px]">
+                <span class="text-[#737373] text-[14px] resSearchBar"></span>
+                <img class="w-[24px]" src="./Media/search.svg" alt="">
+            </div>
+        </div>
+        <div dir="rtl" class="flex flex-col pr-5 gap-5">
+            <span class="text-[14px] font-bold resSearchBar"></span>
+            <div class="w-full flex gap-1">
+                <span class="text-[12px] text-[#737373] py-[4px] px-[8px] brdr rounded-md resSearchBar"></span>
+                <span class="text-[12px] text-[#737373] py-[4px] px-[8px] brdr rounded-md resSearchBar"></span>
+                <span class="text-[12px] text-[#737373] py-[4px] px-[8px] brdr rounded-md resSearchBar"></span>
+                <span class="text-[12px] text-[#737373] py-[4px] px-[8px] brdr rounded-md resSearchBar"></span>
+            </div>
+        </div>
+    </section>
+    <!--Responsive Search E-->
+    <!--Responsive Menu S-->
+    <section dir="rtl" class="w-[100vw] h-[100vh] hidden z-20 fixed top-0 right-0 resMenu">
+        <div class="w-[80vw] h-[100vh] bg-white">
+            <div class="w-full flex items-center justify-between p-[16px] resMenuHeader">
+              <span class="text-[16px] flex-1 text-center"></span>
+              <button class="flex flex-grow-0 flex-shrink-0 text-[18px] closeBtn2"></button>
+            </div>
+            <div class="w-full flex justify-center gap-2 px-2">
+                <div class="w-1/2 flex flex-col resMenuRows">
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                </div>
+                <div class="w-1/2 flex flex-col resMenuRows">
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                    <a class="w-full py-[10px] gap-1 flex justify-center items-center brdr flex-col" href="#"></a>
+                </div>
+            </div>
+        </div>
+        <div class="w-[20vw] h-[100vh] bg-black bg-opacity-50"></div>
+    </section>
+    <!--Responsive Menu E-->
+    <!--Menu S-->
+    <nav class="w-full bg-[#262626] xl:px-[85px] h-[44px] xl:flex justify-end sticky top-[96px] z-10 hidden">
+        <div class="xl:w-full w-full flex justify-end items-center gap-6 submenu-items">
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav" class="flex gap-2" href="#"></a>
+            <a id="nav1" class="flex gap-2" href="#"></a>
+        </div>
+        <div dir="rtl" class="w-full bg-white flex flex-col gap-5 sub-menu absolute top-[44px] pr-[85px] right-0 py-[30px]">
+            <div class="flex submenu">
+                <a class="flex items-center justify-center gap-2 px-[20px]" href="#"></a>
+            </div>
+            <div class="flex gap-14">
+                <div class="flex flex-col gap-5 submenu1">
+                    <a class="bor pr-[10px]" href="#"></a>
+                    <a class="bor pr-[10px]" href="#"></a>
+                    <a class="bor pr-[10px]" href="#"></a>
+                </div>
+                <div class="flex flex-col gap-2 brr px-3">
+                    <a class="pr-[5px] header" href="#"></a>
+                    <a class="pr-[5px] ctg" href="#"></a>
+                    <a class="pr-[5px] ctg" href="#"></a>
+                    <a class="pr-[5px] ctg" href="#"></a>
+                    <a class="pr-[5px] ctg" href="#"></a>
+                </div>
+                <div class="flex flex-col gap-2 brr px-3">
+                    <a class="pr-[5px] header" href="#"></a>
+                    <a class="pr-[5px] ctg" href="#"></a>
+                    <a class="pr-[5px] ctg" href="#"></a>
+                    <a class="pr-[5px] ctg" href="#"></a>
+                    <a class="pr-[5px] ctg" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Menu E-->
+    <!--First Swiper S-->
+    <section class="w-full flex pt-[40px]">
+        <div class="w-full">
+            <div class="swiper mySwiper3">
+                <div id="swiper1" class="swiper-wrapper"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </section>
+    <!--First Swiper E-->
+    <!--Second Swiper(pink-box) S-->
+    <section dir="rtl" class="w-full flex justify-center pt-[30px] items-center">
+        <div class="xl:w-[70%] w-full px-3 rounded-md bg-[#DB2777]">
+            <div class="swiper mySwiper1 w-full">
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-wrapper w-full flex items-center justify-between px-[8px] py-[16px]">
+                        <div class="swiper-slide">
+                            <div id="pink-box" class="flex items-center justify-between flex-col w-full py-[6px] px-[30px]"></div>
+                        </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 swimg">
+                        <div class="flex w-full items-center justify-end gap-2">
+                            <div class="flex flex-col justify-start swprice"></div>
+                            <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 swimg">
+                        <div class="flex w-full items-center justify-end gap-2">
+                            <div class="flex flex-col justify-start swprice"></div>
+                            <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 swimg">
+                        <div class="flex w-full items-center justify-end gap-2">
+                            <div class="flex flex-col justify-start swprice"></div>
+                            <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 swimg">
+                        <div class="flex w-full items-center justify-end gap-2">
+                            <div class="flex flex-col justify-start swprice"></div>
+                            <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 swimg">
+                        <div class="flex w-full items-center justify-end gap-2">
+                            <div class="flex flex-col justify-start swprice"></div>
+                            <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 swimg">
+                        <div class="flex w-full items-center justify-end gap-2">
+                            <div class="flex flex-col justify-start swprice"></div>
+                            <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 swimg">
+                        <div class="flex w-full items-center justify-end gap-2">
+                            <div class="flex flex-col justify-start swprice"></div>
+                            <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 swimg">
+                        <div class="flex w-full items-center justify-end gap-2">
+                            <div class="flex flex-col justify-start swprice"></div>
+                            <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="swiper-slide">
+                    <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 swimg">
+                        <div class="flex w-full items-center justify-end gap-2">
+                            <div class="flex flex-col justify-start swprice"></div>
+                            <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff"></div>
+                        </div>
+                    </div>
+                </a>
+                <div class="flex justify-center items-center swiper-slide ">
+                    <a href="#" class="items-center justify-center flex flex-col see-all"></a>
+                </div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    <!--Second Swiper(pink-box) E-->
+    <!--Third Swiper S-->
+    <section class="w-full pt-[30px] flex justify-center items-center">
+        <div class="xl:w-[70%] w-full">
+            <div class="swiper mySwiper2">
+                <div id="swiper2" class="swiper-wrapper"></div>
+                <div class="swiper-pagination"></div>
+              </div>            
+        </div>
+    </section>
+    <!--Third Swiper E-->
+    <!--Fourth Swiper(porforoosh) S-->
+    <section dir="rtl" class="w-full flex justify-center items-center pt-[30px]">
+        <div class="xl:w-[70%] w-full flex flex-col gap-5">
+            <div class="w-full flex justify-between items-center">
+                <span id="ja-monde" class="font-bold"></span>
+                <a id="ja-monde" class="text-[#DB2777] font-bold" href="#"></a>
+            </div>
+            <div class="w-full swiper mySwiper4">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg2">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice2"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff2"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg2">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice2"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff2"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg2">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice2"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff2"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg2">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice2"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff2"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg2">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice2"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff2"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg2">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice2"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff2"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg2">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice2"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff2"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg2">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice2"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff2"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg2">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice2"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff2"></div>
+                            </div>
+                        </div>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!--Fourth Swiper(porforoosh) E-->
+    <!--Categories S-->
+    <section class="w-full flex items-center justify-center py-[40px]">
+        <div class="xl:w-[70%] w-full flex justify-between items-center xl:px-[80px] categories">
+            <a href="#" class="xl:w-full gap-3 flex flex-col items-center justify-center"></a>
+            <a href="#" class="xl:w-full gap-3 flex flex-col items-center justify-center"></a>
+            <a href="#" class="xl:w-full gap-3 flex flex-col items-center justify-center"></a>
+            <a href="#" class="xl:w-full gap-3 flex flex-col items-center justify-center"></a>
+            <a href="#" class="xl:w-full gap-3 flex flex-col items-center justify-center"></a>
+            <a href="#" class="xl:w-full gap-3 flex flex-col items-center justify-center"></a>            
+        </div>
+    </section>
+    <!--Categories E-->
+    <!--Fifth Swiper S-->
+    <section class="w-full flex justify-center items-center">
+        <div class="xl:w-[70%] w-full">
+            <div class="swiper mySwiper5">
+                <div id="swiper3" class="swiper-wrapper"></div>
+                <div class="swiper-pagination"></div>
+              </div>            
+        </div>
+    </section>
+    <!--Fifth Swiper E-->
+    <!--Two Images S-->
+    <section class="w-full flex flex-col justify-center items-center gap-7 pt-[28px]">
+        <div class="xl:w-[70%] w-full rounded-md twoimg"><a href="#"></a></div>
+        <div class="xl:w-[70%] w-full rounded-md twoimg"><a href="#"></a></div>
+    </section>
+    <!--Two Images E-->
+    <!--Sixth Swiper(jadid-tarin) S-->
+    <section dir="rtl" class="w-full flex justify-center items-center pt-[30px]">
+        <div class="xl:w-[70%] w-full flex flex-col gap-5">
+            <div class="w-full flex justify-between items-center">
+                <span id="ja-monde" class="font-bold"></span>
+            </div>
+            <div class="w-full swiper mySwiper6">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg3">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice3"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff3"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg3">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice3"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff3"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg3">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice3"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff3"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg3">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice3"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff3"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg3">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice3"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff3"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg3">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice3"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff3"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg3">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice3"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff3"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg3">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice3"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff3"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg3">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice3"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff3"></div>
+                            </div>
+                        </div>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!--Sixth Swiper(jadid-tarin) E-->
+    <!--Four Images S-->
+    <section class="w-full flex justify-center items-center pt-[30px]">
+        <div class="xl:w-[70%] w-full flex flex-col xl:gap-7 gap-2 justify-center items-center">
+            <div class="w-full justify-center items-center flex xl:gap-7 gap-2 img4">
+                <a class="w-full" href="#"></a>
+                <a class="w-full" href="#"></a>
+            </div>
+            <div class="w-full justify-center items-center flex xl:gap-7 gap-2 img4">
+                <a class="w-full" href="#"></a>
+                <a class="w-full" href="#"></a>
+            </div>
+        </div>
+    </section>
+    <!--Four Images E-->
+    <!--Seventh Swiper(pishnahad) S-->
+    <section dir="rtl" class="w-full flex justify-center items-center pt-[30px]">
+        <div class="xl:w-[70%] w-full flex flex-col gap-5">
+            <div class="w-full flex justify-between items-center">
+                <span id="ja-monde" class="font-bold"></span>
+            </div>
+            <div class="w-full swiper mySwiper7">
+                <div class="swiper-wrapper">
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg4">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice4"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff4"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg4">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice4"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff4"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg4">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice4"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff4"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg4">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice4"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff4"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg4">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice4"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff4"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg4">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice4"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff4"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg4">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice4"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff4"></div>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="swiper-slide">
+                        <div class="swiper-slide swip rounded-md gap-3 bg-white p-4 brd swimg4">
+                            <div class="flex w-full items-center justify-end gap-2">
+                                <div class="flex flex-col justify-start swprice4"></div>
+                                <div class="bg-[#E11D48] h-[24px] flex items-center justify-center rounded-md px-2 swoff4"></div>
+                            </div>
+                        </div>
+                    </a>
+                  </div>
+            </div>
+        </div>
+    </section>
+    <!--Seventh Swiper(pishnahad) S-->
+    <!--Products S-->
+    <section class="w-full flex justify-center items-center pt-[30px]">
+        <div class="xl:w-[70%] w-full xl:flex xl:flex-nowrap flex flex-wrap justify-between items-center gap-5 products">
+            <a class="xl:w-1/4 w-[47%]" href="#"></a>
+            <a class="xl:w-1/4 w-[47%]" href="#"></a>
+            <a class="xl:w-1/4 w-[47%]" href="#"></a>
+            <a class="xl:w-1/4 w-[47%]" href="#"></a>
+        </div>
+    </section>
+    <!--Products E-->
+    <!--Brands S-->
+    <section class="w-full flex justify-center items-center pt-[30px]">
+        <div class="xl:w-[70%] w-full flex flex-col justify-center items-center gap-5">
+            <span id="ja-monde" class="font-bold self-end"></span>
+            <div class="w-full xl:flex-nowrap flex flex-wrap items-center justify-center brands gap-3">
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+            </div>
+            <div class="w-full xl:flex-nowrap flex flex-wrap items-center justify-center brands gap-3">
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+                <a class="xl:w-1/6 w-[26%]" href="#"></a>
+            </div>
+        </div>
+    </section>
+    <!--Brands E-->
+    <!--Akharin aks S-->
+    <section class="w-full justify-center items-center flex pt-[30px]">
+        <div class="xl:w-[70%] w-0 last-img">
+            <a class="w-full" href="#"></a>
+        </div>
+    </section>
+    <!--Akharin aks E-->
+    <!--Footer S-->
+    <section class="w-full mt-[50px] bg-[#262626] flex flex-col xl:pt-[48px] xl:px-[85px] xl:pb-[12px] pt-[16px] pb-[12px] px-[8px]">
+        <div class="w-full lg:flex hidden justify-between items-center">
+            <div class="xl:w-[50%] flex flex-col items-center justify-center gap-5">
+                <div class="flex flex-col justify-center items-center gap-2 communications">
+                    <div class="flex justify-center items-center gap-3 socials">
+                      <a href="#"></a>
+                      <a href="#"></a>
+                      <a href="#"></a>
+                    </div>
+                </div>
+                <div class="flex flex-col justify-center items-center gap-2 tel">
+                    <a class="text-white text-[14px]" href="tell:09123456789"></a>
+                </div>
+            </div>
+            <div class="xl:w-[50%] flex justify-center items-start">
+                <div class="w-1/2 flex justify-center items-end flex-col gap-8 footerL">
+                    <div class="flex flex-col items-end gap-4">
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                    </div>
+                </div>
+                <div class="w-1/2 flex justify-center items-end flex-col gap-8 footerR">
+                    <div class="flex flex-col items-end gap-4">
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                      <a class="text-white text-[14px] hover:text-[#B82764] td" href="#"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-[#262626] w-full lg:hidden flex flex-col justify-center items-center pb-5">
+            <div class="w-full flex flex-col justify-center gap-2 brb pb-6 items-center">
+                <div class="socials2 flex gap-3">
+                  <a href="#"></a>
+                  <a href="#"></a>
+                  <a href="#"></a>
+                </div>
+                <span class="text-[14px] text-white fallow"></span>
+            </div>
+            <div dir="rtl" class="w-full flex flex-col gap-4 brb pb-7 pt-4 khadamat">
+                <span class="text-white text-[14px] font-bold pb-5"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+            </div>
+            <div dir="rtl" class="w-full flex flex-col gap-4 brb pb-7 pt-4 sherkat">
+                <span class="text-white text-[14px] font-bold pb-5"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+                <span class="text-white text-[12px]"></span>
+            </div>
+            <div dir="rtl" class="w-full flex flex-col pt-4 app">
+              <span class="text-white text-[14px] font-bold"></span>
+              <div class="flex justify-center flex-col items-center pt-7 gap-2">
+                <span class="text-[#D4D4D4] text-[12px]"></span>
+                <span class="text-[#D4D4D4] text-[12px]"></span>
+              </div>
+            </div>
+        </div>
+        <div class="w-full flex justify-center items-center flex-col gap-5 copyRight">
+            <div class="flex justify-center items-center gap-3 footerE">
+                <a class="w-[53px] h-[72px] bg-white flex justify-center items-center rounded-md" href="#"></a>
+                <a class="w-[53px] h-[72px] bg-white flex justify-center items-center rounded-md" href="#"></a>
+                <a class="w-[53px] h-[72px] bg-white flex justify-center items-center rounded-md" href="#"></a>
+            </div>
+        </div>
+    </section>
+    <!--Footer E-->
+
+
+    <script src="./axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper1", {
+          slidesPerView: 5.4,
+          spaceBetween: 10,
+          freeMode: true,
+          breakpoints: {
+            320: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 5.4,
+            }
+          }
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper2", {
+      spaceBetween: 50,
+      slidesPerView: 1.2,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper3", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper4", {
+          slidesPerView: 5.02,
+          spaceBetween: 10,
+          freeMode: true,
+          breakpoints: {
+            320: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 5.02,
+            }
+          }
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper5", {
+      spaceBetween: 50,
+      slidesPerView: 1.2,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper6", {
+          slidesPerView: 5.02,
+          spaceBetween: 10,
+          freeMode: true,
+          breakpoints: {
+            320: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 5.02,
+            }
+          }
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper7", {
+          slidesPerView: 5.02,
+          spaceBetween: 10,
+          freeMode: true,
+          breakpoints: {
+            320: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 5.02,
+            }
+          }
+        });
+      </script>
+      <script>
+        var swiper = new Swiper(".mySwiper8", {
+      slidesPerView: 7,
+      spaceBetween: 0,
+      freeMode: true,
+    });
+      </script>
+</body>
+</html>

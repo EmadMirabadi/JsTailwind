@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Main;
+    src: url(../css/IRANYekanRegular.woff);
+}
+body{
+    font-family: Main !important;
+}
+.br{
+    border: 1px solid #BE185D;
+    border-radius: 5px;
+}
+.swip{
+  justify-content: center !important;
+  display: flex !important;
+  align-items: center !important;
+  flex-flow: column;
+  height: 282px !important;
+}
+.brd{
+    border: 1px solid #E5E5E5;
+}
+a.td{
+    transition: all 100ms ease-in;
+    padding-bottom: 5px;
+}
+a.td:hover{
+    border-bottom: 1px solid #BE185D;
+}
+.bor{
+    border-right: 2px solid #BE185D;
+}
+.brr{
+    border-right: 1px solid rgba(220, 220, 220, 0.562);
+}
+.sub-menu{
+    display: none;
+}
+.active{
+    display: flex !important;
+}
+.brdr{
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.pf{
+    width: auto !important;
+    display: flex !important;
+    gap: 0 !important;
+    margin: 0 !important;
+    height: auto !important;
+}
+.brb{
+    border-bottom: 1px solid rgba(220, 220, 220, 0.384);
+}

@@ -1,0 +1,978 @@
+{
+    "header":[
+        {
+            "name":"logo",
+            "src":"./Media/Head-Logo.jpeg"
+        }
+    ],
+    "navbar":[
+        {
+            "name":"basket",
+            "src":"./Media/Basket.svg"
+        }
+    ],
+    "navbar1":[
+        {
+            "name":"enter",
+            "text":"ورود",
+            "src":"./Media/exit.svg"
+        }
+    ],
+    "search":[
+        {
+            "name":"search",
+            "text":"جست‌وجو",
+            "src":"./Media/search.svg"
+        }
+    ],
+    "logo":[
+        {
+            "name":"logo",
+            "src":"./Media/Khanoumi-Logo.svg"
+        }
+    ],
+    "nav":[
+        {
+            "id":0,
+            "src":"./Media/Star.svg"
+        },
+        {
+            "id": 1,
+            "text": "مجله خانومی"
+        },
+        {
+            "id": 2,
+            "text": "مکمل غذایی و ورزشی"
+        },
+        {
+            "id": 3,
+            "text": "لوازم برقی شخصی"
+        },
+        {
+            "id": 4,
+            "text": "آقایان"
+        },
+        {
+            "id": 5,
+            "text": "عطر و ادکلن"
+        },
+        {
+            "id": 6,
+            "text": "بهداشت شخصی"
+        },
+        {
+            "id": 7,
+            "text": "مراقب مو"
+        },
+        {
+            "id": 8,
+            "text": "مراقبت پوست"
+        },
+        {
+            "id": 9,
+            "text": "آرایشی"
+        },
+        {
+            "id": 10,
+            "text": "برندها"
+        },
+        {
+            "id": 11,
+            "text": "پیشنهاد ویژه"
+        }
+    ],
+    "swiper":[
+        {
+            "id":0,
+            "src":"./Media/Sw1.jpeg"
+        },
+        {
+            "id":1,
+            "src":"./Media/Sw2.webp"
+        },
+        {
+            "id":2,
+            "src":"./Media/Sw3.webp"
+        },
+        {
+            "id":3,
+            "src":"./Media/Sw4.webp"
+        },
+        {
+            "id":4,
+            "src":"./Media/Sw5.webp"
+        },
+        {
+            "id":5,
+            "src":"./Media/Sw6.webp"
+        },
+        {
+            "id":6,
+            "src":"./Media/Sw7.webp"
+        },
+        {
+            "id":7,
+            "src":"./Media/Sw8.webp"
+        },
+        {
+            "id":8,
+            "src":"./Media/Sw9.webp"
+        }
+    ],
+    "swiper2":[
+        {
+            "id":0,
+            "src1":"./Media/pink-box-text.png",
+            "src2":"./Media/pink-box-image.png",
+            "text":"بزرگ‌ترین حراج روزانه"
+        },
+        {
+            "id":1,
+            "src":"./Media/Sw21.jpg",
+            "src2":"./Media/toman.svg",
+            "info":"فوم شستشوی صورت مناسب پوست چرب 150 میلی لیتر لایسل",
+            "price":"۲۷۷,۰۰۰",
+            "price2":"۱۳۸,۵۰۰",
+            "off":"۵۰٪"
+        },
+        {
+            "id":2,
+            "src":"./Media/Sw22.jpg",
+            "src2":"./Media/toman.svg",
+            "info":"میسلار واتر 3 در 1 Mattifying پوست چرب و جوشدار هیدرودرم",
+            "price":"۱۳۶,۲۰۰",
+            "price2":"۶۸,۱۰۰",
+            "off":"۵۰٪"
+        }
+        ,
+        {
+            "id":3,
+            "src":"./Media/Sw23.jpg",
+            "src2":"./Media/toman.svg",
+            "info":"سرم ویتامین سی مدل C_Prime حجم 30 میلی لیتر پرایم",
+            "price":"۷۳۹,۰۰۰",
+            "price2":"۶۹۹,۰۰۰",
+            "off":"۵٪"
+        }
+        ,
+        {
+            "id":4,
+            "src":"./Media/Sw24.jpg",
+            "src2":"./Media/toman.svg",
+            "info":"کرم ژل دور چشم سه کاره 20 گرم ساین اسکین",
+            "price":"۱۸۶,۱۲۰",
+            "price2":"۱۴۸,۹۰۰",
+            "off":"۲۰٪"
+        }
+        ,
+        {
+            "id":5,
+            "src":"./Media/Sw25.jpg",
+            "src2":"./Media/toman.svg",
+            "info":"کرم روز ضد چروک قوی اینتنس 50 میل لایسل",
+            "price":"۶۹۵,۸۰۰",
+            "price2":"۳۴۷,۹۰۰",
+            "off":"۵۰٪"
+        }
+        ,
+        {
+            "id":6,
+            "src":"./Media/Sw26.jpg",
+            "src2":"./Media/toman.svg",
+            "info":"مجموعه مراقبت صورت مدل Oily Skin هیدرودرم",
+            "price":"۳۶۷,۸۰۰",
+            "price2":"۱۸۳,۹۰۰",
+            "off":"۵۰٪"
+        }
+        ,
+        {
+            "id":7,
+            "src":"./Media/Sw27.jpg",
+            "src2":"./Media/toman.svg",
+            "info":"سایه چشم چهار رنگ درامتیک شون",
+            "price":"۴۳۹,۱۰۰",
+            "price2":"۳۷۳,۲۴۰",
+            "off":"۱۵٪"
+        }
+        ,
+        {
+            "id":8,
+            "src":"./Media/Sw28.jpg",
+            "src2":"./Media/toman.svg",
+            "info":"پک مراقبت صورت مجموعه 3 عددی فاب پابلیک",
+            "price":"۷۹۹,۰۰۰",
+            "price2":"۲۳۹,۷۰۰",
+            "off":"۷۰٪"
+        }
+        ,
+        {
+            "id":9,
+            "src":"./Media/Sw29.jpg",
+            "src2":"./Media/toman.svg",
+            "info":"براق کننده بدن ژنو بایوتیک",
+            "price":"۴۶۸,۸۰۰",
+            "price2":"۴۰۶,۲۹۰",
+            "off":"۱۳٪"
+        }
+        ,
+        {
+            "id":10,
+            "src":"./Media/see-all.svg",
+            "text":"مشاهده همه"
+        }
+    ],
+    "swiper3":[
+        {
+            "id":0,
+            "src":"./Media/Sw31.webp"
+        },
+        {
+            "id":1,
+            "src":"./Media/Sw32.webp"
+        },
+        {
+            "id":2,
+            "src":"./Media/Sw33.webp"
+        }
+    ],
+    "swiper4":[
+        {
+            "id":0,
+            "src1":"./Media/Swiper4/1.jpg",
+            "brand":"مای",
+            "info":"فلوئید ضد آفتاب اسمارت دیفنس اس پی اف 50 حجم 50 میلی لیتر",
+            "price":"۳۱۲,۵۹۱",
+            "price2":"۲۳۴,۴۴۰",
+            "toman":"./Media/toman.svg",
+            "off":"۲۵٪"
+        },
+        {
+            "id":1,
+            "src1":"./Media/Swiper4/2.jpg",
+            "brand":"وچه",
+            "info":"کرم آبرسان مخصوص پوست چرب و مستعد آکنه 60 میلی لیتر",
+            "price":"۳۱۲,۵۹۱",
+            "price2":"۲۳۴,۴۴۰",
+            "toman":"./Media/toman.svg",
+            "off":"۲۵٪"
+        },
+        {
+            "id":2,
+            "src1":"./Media/Swiper4/3.jpg",
+            "brand":"کالیستا",
+            "info":"ریمل حجم دهنده اکستند ولوم",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۰٪"
+        },
+        {
+            "id":3,
+            "src1":"./Media/Swiper4/4.jpg",
+            "brand":"سینره",
+            "info":"تونر صورت مدل Herbal Energizer حجم 150 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۶۰٪"
+        },
+        {
+            "id":4,
+            "src1":"./Media/Swiper4/5.jpg",
+            "brand":"آدریان",
+            "info":"قرص کلاژن گلد بسته 60 عددی",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۱٪"
+        },
+        {
+            "id":5,
+            "src1":"./Media/Swiper4/6.jpg",
+            "brand":"پرایم",
+            "info":"سرم ویتامین سی مدل C_Prime حجم 30 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۰٪"
+        },
+        {
+            "id":6,
+            "src1":"./Media/Swiper4/7.jpg",
+            "brand":"تاپ شاپ",
+            "info":"ماسک مو با آب کشی حاوی روغن آرگان حجم 500 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۴۰٪"
+        },
+        {
+            "id":7,
+            "src1":"./Media/Swiper4/8.jpg",
+            "brand":"ژیناژن",
+            "info":"کرم ضد آفتاب بی رنگ مدل Fusion Liquid 50 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۰٪"
+        },
+        {
+            "id":8,
+            "src1":"./Media/Swiper4/9.jpg",
+            "brand":"کالیستا",
+            "info":"خط چشم نمدی مدل لاین اکسپرس",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۴۰٪"
+        }
+    ],
+    "categories":[
+        {
+            "id":0,
+            "src":"./Media/mens.webp",
+            "text":"تخصصی آقایان"
+        },
+        {
+            "id":1,
+            "src":"./Media/hair-care.webp",
+            "text":"مراقب مو"
+        },
+        {
+            "id":2,
+            "src":"./Media/lip-makeup.webp",
+            "text":"آرایش لب"
+        },
+        {
+            "id":3,
+            "src":"./Media/eye-makeup.webp",
+            "text":"آرایش چشم"
+        },
+        {
+            "id":4,
+            "src":"./Media/sun-burn.webp",
+            "text":"ضد آفتاب"
+        },
+        {
+            "id":5,
+            "src":"./Media/skin-care.webp",
+            "text":"مراقبت پوستی"
+        }
+    ],
+    "swiper5":[
+        {
+            "id":0,
+            "src":"./Media/Swiper5/1.webp"
+        },
+        {
+            "id":1,
+            "src":"./Media/Swiper5/2.webp"
+        },
+        {
+            "id":2,
+            "src":"./Media/Swiper5/3.webp"
+        },
+        {
+            "id":3,
+            "src":"./Media/Swiper5/4.webp"
+        }
+    ],
+    "twoimg":[
+        {
+            "id":0,
+            "src":"./Media/Twoimg1.webp"
+        },
+        {
+            "id":1,
+            "src":"./Media/Twoimg2.webp"
+        }
+    ],
+    "swiper6":[
+        {
+            "id":0,
+            "src1":"./Media/Swiper4/1.jpg",
+            "brand":"مای",
+            "info":"فلوئید ضد آفتاب اسمارت دیفنس اس پی اف 50 حجم 50 میلی لیتر",
+            "price":"۳۱۲,۵۹۱",
+            "price2":"۲۳۴,۴۴۰",
+            "toman":"./Media/toman.svg",
+            "off":"۲۵٪"
+        },
+        {
+            "id":1,
+            "src1":"./Media/Swiper4/2.jpg",
+            "brand":"وچه",
+            "info":"کرم آبرسان مخصوص پوست چرب و مستعد آکنه 60 میلی لیتر",
+            "price":"۳۱۲,۵۹۱",
+            "price2":"۲۳۴,۴۴۰",
+            "toman":"./Media/toman.svg",
+            "off":"۲۵٪"
+        },
+        {
+            "id":2,
+            "src1":"./Media/Swiper4/3.jpg",
+            "brand":"کالیستا",
+            "info":"ریمل حجم دهنده اکستند ولوم",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۰٪"
+        },
+        {
+            "id":3,
+            "src1":"./Media/Swiper4/4.jpg",
+            "brand":"سینره",
+            "info":"تونر صورت مدل Herbal Energizer حجم 150 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۶۰٪"
+        },
+        {
+            "id":4,
+            "src1":"./Media/Swiper4/5.jpg",
+            "brand":"آدریان",
+            "info":"قرص کلاژن گلد بسته 60 عددی",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۱٪"
+        },
+        {
+            "id":5,
+            "src1":"./Media/Swiper4/6.jpg",
+            "brand":"پرایم",
+            "info":"سرم ویتامین سی مدل C_Prime حجم 30 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۰٪"
+        },
+        {
+            "id":6,
+            "src1":"./Media/Swiper4/7.jpg",
+            "brand":"تاپ شاپ",
+            "info":"ماسک مو با آب کشی حاوی روغن آرگان حجم 500 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۴۰٪"
+        },
+        {
+            "id":7,
+            "src1":"./Media/Swiper4/8.jpg",
+            "brand":"ژیناژن",
+            "info":"کرم ضد آفتاب بی رنگ مدل Fusion Liquid 50 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۰٪"
+        },
+        {
+            "id":8,
+            "src1":"./Media/Swiper4/9.jpg",
+            "brand":"کالیستا",
+            "info":"خط چشم نمدی مدل لاین اکسپرس",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۴۰٪"
+        }
+    ],
+    "img4":[
+        {
+            "id":0,
+            "src":"./Media/4img2.webp"
+        },
+        {
+            "id":1,
+            "src":"./Media/4img1.webp"
+        },
+        {
+            "id":2,
+            "src":"./Media/4img4.webp"
+        },
+        {
+            "id":3,
+            "src":"./Media/4img3.webp"
+        }
+    ],
+    "swiper7":[
+        {
+            "id":0,
+            "src1":"./Media/Swiper4/1.jpg",
+            "brand":"مای",
+            "info":"فلوئید ضد آفتاب اسمارت دیفنس اس پی اف 50 حجم 50 میلی لیتر",
+            "price":"۳۱۲,۵۹۱",
+            "price2":"۲۳۴,۴۴۰",
+            "toman":"./Media/toman.svg",
+            "off":"۲۵٪"
+        },
+        {
+            "id":1,
+            "src1":"./Media/Swiper4/2.jpg",
+            "brand":"وچه",
+            "info":"کرم آبرسان مخصوص پوست چرب و مستعد آکنه 60 میلی لیتر",
+            "price":"۳۱۲,۵۹۱",
+            "price2":"۲۳۴,۴۴۰",
+            "toman":"./Media/toman.svg",
+            "off":"۲۵٪"
+        },
+        {
+            "id":2,
+            "src1":"./Media/Swiper4/3.jpg",
+            "brand":"کالیستا",
+            "info":"ریمل حجم دهنده اکستند ولوم",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۰٪"
+        },
+        {
+            "id":3,
+            "src1":"./Media/Swiper4/4.jpg",
+            "brand":"سینره",
+            "info":"تونر صورت مدل Herbal Energizer حجم 150 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۶۰٪"
+        },
+        {
+            "id":4,
+            "src1":"./Media/Swiper4/5.jpg",
+            "brand":"آدریان",
+            "info":"قرص کلاژن گلد بسته 60 عددی",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۱٪"
+        },
+        {
+            "id":5,
+            "src1":"./Media/Swiper4/6.jpg",
+            "brand":"پرایم",
+            "info":"سرم ویتامین سی مدل C_Prime حجم 30 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۰٪"
+        },
+        {
+            "id":6,
+            "src1":"./Media/Swiper4/7.jpg",
+            "brand":"تاپ شاپ",
+            "info":"ماسک مو با آب کشی حاوی روغن آرگان حجم 500 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۴۰٪"
+        },
+        {
+            "id":7,
+            "src1":"./Media/Swiper4/8.jpg",
+            "brand":"ژیناژن",
+            "info":"کرم ضد آفتاب بی رنگ مدل Fusion Liquid 50 میلی لیتر",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۳۰٪"
+        },
+        {
+            "id":8,
+            "src1":"./Media/Swiper4/9.jpg",
+            "brand":"کالیستا",
+            "info":"خط چشم نمدی مدل لاین اکسپرس",
+            "price":"۳۷۸,۲۹۴",
+            "price2":"۲۶۴,۸۱۰",
+            "toman":"./Media/toman.svg",
+            "off":"۴۰٪"
+        }
+    ],
+    "products":[
+        {
+            "id":0,
+            "src":"./Media/pro1.webp"
+        },
+        {
+            "id":1,
+            "src":"./Media/pro2.webp"
+        },
+        {
+            "id":2,
+            "src":"./Media/pro3.webp"
+        },
+        {
+            "id":3,
+            "src":"./Media/pro4.webp"
+        }
+    ],
+    "brands":[
+        {
+            "id":0,
+            "src":"./Media/Ardene.png"
+        },
+        {
+            "id":1,
+            "src":"./Media/Prime.png"
+        },
+        {
+            "id":2,
+            "src":"./Media/Certia.png"
+        },
+        {
+            "id":3,
+            "src":"./Media/Dermatypique.png"
+        },
+        {
+            "id":4,
+            "src":"./Media/Hydra.png"
+        },
+        {
+            "id":5,
+            "src":"./Media/La farrerr.png"
+        },
+        {
+            "id":6,
+            "src":"./Media/Voche.png"
+        },
+        {
+            "id":7,
+            "src":"./Media/Synskin.png"
+        },
+        {
+            "id":8,
+            "src":"./Media/Cinagen.png"
+        },
+        {
+            "id":9,
+            "src":"./Media/Sunsafe.png"
+        },
+        {
+            "id":10,
+            "src":"./Media/Callista.png"
+        },
+        {
+            "id":11,
+            "src":"./Media/Fulica.png"
+        }
+    ],
+    "lastImage":[
+        {
+            "id":0,
+            "src":"./Media/Last-img.jpeg"
+        }
+    ],
+    "socials":[
+        {
+            "id":0,
+            "src":"./Media/instagram.svg"
+        },
+        {
+            "id":1,
+            "src":"./Media/linkedin.svg"
+        },
+        {
+            "id":2,
+            "src":"./Media/telegram.svg"
+        },
+        {
+            "id":3,
+            "text":"ما را در شبکه‌های اجتماعی دنبال کنید"
+        },
+        {
+            "id":4,
+            "text1":"هفت روز هفته، از ساعت 8 الی 24 پاسخگوی سوالات شما هستیم"
+        },
+        {
+            "id":5,
+            "tel":"تلفن: ۰۲۱۹۱۲۰۰۵۰۰"
+        }
+    ],
+    "footerL":[
+        {
+            "id":0,
+            "text":"خدمات مشتریان"
+        },
+        {
+            "id":1,
+            "text":"پرسش‌های متداول"
+        },
+        {
+            "id":2,
+            "text":"راهنمای خرید و پرداخت"
+        },
+        {
+            "id":3,
+            "text":"رویه‌های ارسال"
+        },
+        {
+            "id":4,
+            "text":"شرایط مرجوعی"
+        },
+        {
+            "id":5,
+            "text":"خرید کالای شانس"
+        },
+        {
+            "id":6,
+            "text":"ارتباط با پشتیبانی"
+        }
+    ],
+    "footerR":[
+        {
+            "id":0,
+            "text":"شرکت خانومی"
+        },
+        {
+            "id":1,
+            "text":"تماس با ما"
+        },
+        {
+            "id":2,
+            "text":"درباره ما"
+        },
+        {
+            "id":3,
+            "text":"فرصت‌های شغلی"
+        },
+        {
+            "id":4,
+            "text":"حریم خصوصی"
+        },
+        {
+            "id":5,
+            "text":"مجله خانومی"
+        },
+        {
+            "id":6,
+            "text":"خانومی بیزینس"
+        },
+        {
+            "id":7,
+            "text":"خانومی TV"
+        }
+    ],
+    "footerEnd":[
+        {
+            "id":0,
+            "src":"./Media/credit-union.png"
+        },
+        {
+            "id":1,
+            "src":"./Media/e-namad.png"
+        },
+        {
+            "id":2,
+            "src":"./Media/samandehi-logo.png"
+        },
+        {
+            "id":3,
+            "text":"کلیه حقوق این سایت متعلق به فروشگاه آنلاین خانومی می باشد"
+        }
+    ],
+    "submenu":[
+        {
+            "id":0,
+            "text":"همه محصولات آقایان",
+            "src":"./Media/flesh-pink.svg"
+        },
+        {
+            "id":1,
+            "text":"لوازم اصلاح آقایان"
+        },
+        {
+            "id":2,
+            "text":"ست آقایان"
+        },
+        {
+            "id":3,
+            "text":"مراقبت پوست آقایان"
+        },
+        {
+            "id":4,
+            "text":"موی آقایان"
+        },
+        {
+            "id":5,
+            "text":"شامپو آقایان"
+        },
+        {
+            "id":6,
+            "text":"رنگ موی آقایان"
+        },
+        {
+            "id":7,
+            "text":"حالت دهنده موی آقایان"
+        },
+        {
+            "id":8,
+            "text":"مراقبت موی آقایان"
+        },
+        {
+            "id":9,
+            "text":"عطر و رایحه آقایان"
+        },
+        {
+            "id":10,
+            "text":"عطر و ادکلن آقایان"
+        },
+        {
+            "id":11,
+            "text":"اسپری بدن آقایان"
+        },
+        {
+            "id":12,
+            "text":"دئودورانت آقایان"
+        },
+        {
+            "id":13,
+            "text":"عطر جیبی آقایان"
+        }
+    ],
+    "apps":[
+        {
+            "id":0,
+            "text":"دریافت اپلیکیشن"
+        },
+        {
+            "id":1,
+            "text":"هفت روز هفته، از ساعت 8 الی 24 پاسخگوی سوالات شما هستیم"
+        },
+        {
+            "id":2,
+            "text":"تلفن: ۰۲۱۹۱۲۰۰۵۰۰"
+        }
+    ],
+    "jaMonde":[
+        {
+            "id":0,
+            "text":"پرفروش‌ترین‌ها"
+        },
+        {
+            "id":1,
+            "text":"مشاهده همه"
+        },
+        {
+            "id":2,
+            "text":"جدیدترین‌ها"
+        },
+        {
+            "id":3,
+            "text":"پیشنهاد خانومی"
+        },
+        {
+            "id":4,
+            "text":"برندهای برتر"
+        }
+    ],
+    "leftOverImgs":[
+        {
+            "id":0,
+            "src":"./Media/search2.svg"
+        },
+        {
+            "id":1,
+            "src":"./Media/responsive-menu.svg"
+        }
+    ],
+    "responsiveSearchBar":[
+        {
+            "id":0,
+            "text":"X"
+        },
+        {
+            "id":1,
+            "text":"جست‌وجو"
+        },
+        {
+            "id":2,
+            "text":"جست‌وجو"
+        },
+        {
+            "id":3,
+            "text":"جست‌وجوهای پرطرفدار"
+        },
+        {
+            "id":4,
+            "text":"ضد آفتاب"
+        },
+        {
+            "id":5,
+            "text":"آبرسان"
+        },
+        {
+            "id":6,
+            "text":"تقویت مژه"
+        },
+        {
+            "id":7,
+            "text":"ژیناژن"
+        }
+    ],
+    "resMenu":[
+        {
+            "id":0,
+            "text":"دسته‌بندی‌ها"
+        },
+        {
+            "id":1,
+            "text":"X"
+        },
+        {
+            "id":2,
+            "text":"پیشنهاد ویژه",
+            "src":"./Media/پیشنهاد ویژه.svg"
+        },
+        {
+            "id":3,
+            "text":"آرایشی",
+            "src":"./Media/آرایشی.svg"
+        },
+        {
+            "id":4,
+            "text":"مراقبت مو",
+            "src":"./Media/مراقبت مو.svg"
+        },
+        {
+            "id":5,
+            "text":"عطر و ادکلن",
+            "src":"./Media/عطر و ادکلن.svg"
+        },
+        {
+            "id":6,
+            "text":"لوازم برقی شخصی",
+            "src":"./Media/لوازم برقی شخصی.svg"
+        },
+        {
+            "id":7,
+            "text":"مجله خانومی",
+            "src":"./Media/مجله خانومی.svg"
+        },
+        {
+            "id":8,
+            "text":"برندها",
+            "src":"./Media/برندها.svg"
+        },
+        {
+            "id":9,
+            "text":"مراقبت پوست",
+            "src":"./Media/مراقبت پوست.svg"
+        },
+        {
+            "id":10,
+            "text":"بهداشت شخصی",
+            "src":"./Media/بهداشت شخصی.svg"
+        },
+        {
+            "id":11,
+            "text":"آقایان",
+            "src":"./Media/آقایان.svg"
+        },
+        {
+            "id":12,
+            "text":"مکمل غذایی و ورزشی",
+            "src":"./Media/مکمل غذایی و ورزشی.svg"
+        }
+    ]
+}
